@@ -1,25 +1,40 @@
 Git Commands
+
 clone -> bring a repository from GIthub into my loacl machine
+
 add -> track my files and changes in git
+
 commit -> save my files in Git
+
 push -> upload Git commits in remote repo, Github, GitBucket, 
+
 pull -> download the changes in remote repo to my local machine, the opposite of push
 
 git //shob commands chole asbe
+
 git --version //kon version ta install kora ache seta dedkhabe
 
 git config --global user.name "Mubin"    //--global use na korle ei user name ta sudhu ei working repository 
+
 git config --global user.email "mubin.md.hasan@gmail.com"
+
 git config user.name
+
 git config user.email
 
+
 git status //first e ei command diye check kora uchit folder er obostha
+
 git init //ekta folder ke repository banaite hole ei command dite hoy 
+
  git add . //working directory er shob files staging area te rakha hoy, this is also equivalent to git add --a
+ 
 git commit -m "Message or Reason for commiting"
+
 git log //check kora hoy ke ki changes korse
 
 rm -rf foldername  //this command deletes all the contents inside foldername
+
 git clone url newfoldername
 
 pwd //this is a linux command, this basically outputs kon directory/folder e kaj kortesi
@@ -27,8 +42,11 @@ pwd //this is a linux command, this basically outputs kon directory/folder e kaj
 ls //this is also a linux command, this list outs the filenames present in that directory
 
 folder er baire git status kaj korena
+
 q press korle code jeta run hocche terminal e sheta bondho hoye jabe
+
 touch filename //this creates an empty file with the filename
+
 .gitignore file er vitore kono filename likhe rakhle seta git track korena plus jodi boli je .log er jekono file track korte na chaile simply *.log likhte hobe, jodi kono folder er content track korte na chai tahole foldername/ eita .gitignore e likhte hobe, so jekono jaygay foldername er folder thakle ignore korbe, jodi /foldername/ likhe .gitignore e add kori tahole sudhu pwd er outer foldername ta ignore korbe, kono secondfolder er vitorer firstfolder ta ignore korte chai tahole secondfolder/firstforlder
 by default git blank folder ignore kore
 
