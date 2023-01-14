@@ -1,5 +1,6 @@
 Git Commands
 
+```
 clone -> bring a repository from GIthub into my loacl machine
 
 add -> track my files and changes in git
@@ -117,3 +118,4 @@ Conflict resolution markers
 Branching workflow
 -Long running branches
 -Topic branches
+```
