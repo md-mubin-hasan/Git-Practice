@@ -1,4 +1,0 @@
-This is Version 1 of my project
-I want this file to go in Commit 2
-I don't want this to go in Commit 3
-I want this to go in the next consecutive recent commit
