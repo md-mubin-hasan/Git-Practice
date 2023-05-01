@@ -35,4 +35,5 @@ then it will automatically perform the merging.
 	If it is unsuccessful, merge conflict occurs. You need to solve it and commit and you are not allowed to checkout or perform another merge.
 	Even if it successfully merged, you need to check what has been changed(Can be checked by diff) as it is very unreliable.
 
- branch workflow?
+git state?
+branch workflow?
