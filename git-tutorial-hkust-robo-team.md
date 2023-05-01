@@ -18,3 +18,21 @@ Add without commit, nothing will be uploaded when push
 3. Upload your commit
 # git push <remote> <branch>
 git push origin master
+
+Add new branch
+	git branch <BRANCH>
+
+Change branch
+	git checkout <BRANCH>
+
+Both with one command
+	git checkout -b
+
+If want to combine two branch:
+	git merge <branch>
+
+then it will automatically perform the merging.
+	If it is unsuccessful, merge conflict occurs. You need to solve it and commit and you are not allowed to checkout or perform another merge.
+	Even if it successfully merged, you need to check what has been changed(Can be checked by diff) as it is very unreliable.
+
+ branch workflow?
