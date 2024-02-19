@@ -116,3 +116,23 @@ Branching workflow
 -Long running branches
 -Topic branches
 ```
+
+So you think you know git? - Scott Chacon
+https://git-scm.com/book
+gitbutler.com
+
+How well do you know git?
+- Porcelain (82)
+44 main commands (add, commit, push, pull, ...)
+11 manipulators (config, reflog, replace, ...)
+17 interrogators (blame, fsck, rerere, ...)
+10 interactors (send-email, p4, svn, ...)
+- Plumbing (63)
+19 manipulators (apply, commit-tree, update-ref, ...)
+21 interrogators (cat-file, for-each-ref, ...)
+5 syncing (fetch-pack, send-pack, ...)
+18 internal (check-attr, sh-i18n, ...)
+Total (145)
+
+What has been changing?
+- https://blog.gitbutler.com/
