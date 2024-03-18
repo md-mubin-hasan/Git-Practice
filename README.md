@@ -89,8 +89,8 @@ git push -d origin branchname //remote repository te jei branchname er branch th
 
 To add SSH keys 
 -Github account er settings e jaite hobe SSH key er section e to add new SSH key with a suitable title
--To generate a new SSH key and adding it to the ssh-agent, Generating a new SSH key and adding it to the ssh-agent - GitHub Docs //add korar shomoy ekta code e 
-lekha thake je clip, clip er bodole tail kora better
+-To generate a new SSH key and adding it to the ssh-agent, Generating a new SSH key and adding it to the ssh-agent - GitHub Docs
+//add korar shomoy ekta code e lekha thake je clip, clip er bodole tail kora better
 Checking for existing SSH keys - GitHub Docs , jodi exist kore tahole SSH generate korte hobena
 
 git config --global alias.st status  //basically status command ta ke short kore st banano
