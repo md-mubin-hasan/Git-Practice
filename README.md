@@ -110,6 +110,8 @@ git branch --no-merged //jei branches gula ekhono merged kora nai sesob dekhabe
 deleting branches
 git branch -d branchname //gives error if that branchname is not merged
 git branch -D branchname  //will not give any error and delete that branchname
+
+git pull --rebase origin master  //get the commits from remote repo and combine with the local repo
  
 Conflict resolution markers
 Branching workflow
