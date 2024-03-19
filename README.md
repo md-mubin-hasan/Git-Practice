@@ -83,7 +83,8 @@ git checkout -f  //ei command ta working area er shob modified file gula ke unch
 git remote
 git remote add origin url  //instead of origin, we can give any name
 git remote -v  //it shows kotha theke push or pull kora hobe
-git push -u origin master   //ei command kaj korbena jodi SSH key add kora na thake
+git push -u origin master   //ei command kaj korbena jodi SSH key add kora na thake //"origin": "origin" is the name of the remote repository. When you clone a repository from a remote source, Git automatically creates a remote named "origin" that points to the original repository you cloned from. In this context, "origin" specifies the remote repository where you want to push your local commits.
+"master": "master" is the name of the local branch you want to push to the remote repository. The "master" branch is the default branch name in Git, but some repositories may use a different default branch name, such as "main". You can replace "master" with the name of another local branch if you want to push a different branch.
 git push origin branchname //branchname can also be master
 git push -d origin branchname //remote repository te jei branchname er branch thakbe seta delete hoye jabe
 
@@ -111,7 +112,7 @@ deleting branches
 git branch -d branchname //gives error if that branchname is not merged
 git branch -D branchname  //will not give any error and delete that branchname
 
-git pull --rebase origin master  //get the commits from remote repo and combine with the local repo
+git pull --rebase origin master  //get the commits from remote repo (origin) and combine with the local repo branch ('master', usually 'main' branch thake locally) //"origin" refers to the remote repository (you might name it differently when adding the remote repo) from which you want to pull the latest changes. It specifies that you want to pull the changes from the remote repository named "origin" and rebase your local branch (master in this case, usually 'main' branch thake locally) on top of the updated commit history from that remote repository.
  
 Conflict resolution markers
 Branching workflow
